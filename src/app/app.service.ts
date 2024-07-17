@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AppService {
 
-  private uploadUrl = "http://51.20.65.146:3000/upload"
+  private uploadUrl = "http://localhost:3000/upload"
   constructor(private http:HttpClient) { }
 
   saveUerDets(payload:any){
